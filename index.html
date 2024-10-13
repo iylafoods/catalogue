@@ -8,16 +8,25 @@
   <style>
     body {
       margin: 0;
+      background-color: #f3e7de;
     }
 
-    img {
+    .pages {
+      display: grid;
+      justify-content: center;
+      margin: 1rem;
+      row-gap: 1rem;
+    }
+
+    .page {
       max-width: 100%;
-      display: block;
-      margin: 0 auto;
     }
   </style>
 </head>
 <body>
-  <img src="./assets/catalogue.png" alt="Delicious Food">
+  <div class="pages">
+    <img class="page" src="./assets/catalogue/1.png" alt="Delicious Food">
+    <img class="page" src="./assets/catalogue/2.png" alt="Delicious Food">
+  </div>
 </body>
 </html>
